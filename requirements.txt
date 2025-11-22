@@ -1,0 +1,8 @@
+streamlit>=1.20.0
+python-dotenv
+pydantic
+sqlite-utils
+requests
+rich
+# Optional - if you want to use Gemini adapter:
+google-generativeai>=0.3.0   # install only if you plan to call Gemini

@@ -1,0 +1,106 @@
+{
+  "java": {
+    "easy": [
+      { "id": "j1", "q": "What is OOP in Java?", 
+        "answer": "OOP (Object Oriented Programming) in Java organizes code into objects using principles like Encapsulation, Inheritance, Polymorphism, and Abstraction." },
+
+      { "id": "j2", "q": "What is a Java class?", 
+        "answer": "A Java class is a blueprint for creating objects, containing fields and methods." },
+
+      { "id": "j3", "q": "What is JVM?", 
+        "answer": "JVM (Java Virtual Machine) runs Java bytecode and provides platform independence." }
+    ],
+
+    "medium": [
+      { "id": "j4", "q": "Explain method overloading vs overriding.",
+        "answer": "Overloading occurs within the same class with different parameter lists. Overriding happens in a subclass with same method signature." },
+
+      { "id": "j5", "q": "What is the difference between abstract class and interface?",
+        "answer": "Abstract classes can have implemented methods; interfaces cannot (until default methods). A class can extend one abstract class but implement multiple interfaces." },
+
+      { "id": "j6", "q": "Explain multithreading.",
+        "answer": "Multithreading allows concurrent execution of multiple threads to maximize CPU utilization in Java." }
+    ],
+
+    "hard": [
+      { "id": "j7", "q": "What is Java Memory Model?",
+        "answer": "JMM defines how threads interact through memory, covering heap, stack, visibility, and atomicity rules." },
+
+      { "id": "j8", "q": "Explain Garbage Collection phases.",
+        "answer": "GC marks reachable objects, sweeps unused ones, compacts heap, and releases memory." },
+
+      { "id": "j9", "q": "What are class loaders?",
+        "answer": "Class loaders load Java classes at runtime: Bootstrap, Extension, System, and Custom class loaders." }
+    ]
+  },
+
+  "python": {
+    "easy": [
+      { "id": "p1", "q": "What is Python?",
+        "answer": "Python is an interpreted, high-level, dynamically typed programming language." },
+
+      { "id": "p2", "q": "What is a list?",
+        "answer": "A list is a mutable ordered collection of items in Python." },
+
+      { "id": "p3", "q": "Explain Python data types.",
+        "answer": "Basic types include int, float, str, list, tuple, dict, set, bool." }
+    ],
+
+    "medium": [
+      { "id": "p4", "q": "List vs Tuple?",
+        "answer": "Lists are mutable; tuples are immutable. Tuples are faster and safer for constants." },
+
+      { "id": "p5", "q": "What are decorators?",
+        "answer": "Decorators wrap a function to extend its behavior without modifying its code." },
+
+      { "id": "p6", "q": "What is list comprehension?",
+        "answer": "A concise syntax to create lists using a single expression." }
+    ],
+
+    "hard": [
+      { "id": "p7", "q": "Explain GIL.",
+        "answer": "The Global Interpreter Lock allows only one thread to execute Python bytecode at a time." },
+
+      { "id": "p8", "q": "What is a metaclass?",
+        "answer": "Metaclasses define how classes behave; they are classes of classes." },
+
+      { "id": "p9", "q": "Explain Python memory management.",
+        "answer": "Python uses reference counting and a cyclic garbage collector to free unused objects." }
+    ]
+  },
+
+  "dsa": {
+    "easy": [
+      { "id": "d1", "q": "What is an array?",
+        "answer": "An array is a contiguous collection of elements of the same type." },
+
+      { "id": "d2", "q": "What is a linked list?",
+        "answer": "A linked list is a linear structure where each node contains data and a reference to the next node." },
+
+      { "id": "d3", "q": "Explain stack and queue.",
+        "answer": "Stack uses LIFO. Queue uses FIFO." }
+    ],
+
+    "medium": [
+      { "id": "d4", "q": "Explain merge sort algorithm.",
+        "answer": "Merge sort divides the list into halves recursively and merges sorted halves. O(n log n)." },
+
+      { "id": "d5", "q": "What is binary search tree?",
+        "answer": "A BST stores nodes such that left < root < right for efficient search." },
+
+      { "id": "d6", "q": "Explain hashing.",
+        "answer": "Hashing maps keys to indices in constant time using a hash function." }
+    ],
+
+    "hard": [
+      { "id": "d7", "q": "Explain Dijkstra's algorithm.",
+        "answer": "Dijkstra finds the shortest path from a source to all nodes in a weighted graph." },
+
+      { "id": "d8", "q": "Explain dynamic programming.",
+        "answer": "DP solves problems by storing results of overlapping subproblems." },
+
+      { "id": "d9", "q": "What is cycle detection?",
+        "answer": "Detecting cycles in graphs using DFS or Union-Find." }
+    ]
+  }
+}
