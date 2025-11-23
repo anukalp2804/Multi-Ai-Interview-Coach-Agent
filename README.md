@@ -215,13 +215,14 @@ The Interviewer Agent selects questions by difficulty, while the Evaluator Agent
 </ul>
 
 <h2 align="left"><b>🧪 Example Interview Flow</b></h2>
+<ul>
 <li>User selects name + domain</li>
 <li>System asks an Easy question</li>
 <li>Timer starts → user answers or timeout triggers auto-submit</li>
 <li>Evaluation shown (score + feedback + suggestions)</li>
 <li>Medium → Hard questions proceed</li>
 <li>Final summary generated</li>
-</li>
+</ul>
 
 <h2 align="left"><b>🔄 Workflow</b></h2>
 <p>The <code style="background:#000;color:#fff;padding:3px 6px;border-radius:4px;">multi_agent_interview_coach</code> follows this workflow:
@@ -260,16 +261,8 @@ The Memory Agent compiles a complete performance summary, including average scor
   <img src="image/summary.png" width="800">
 </p></p>
 
-<h2><b>📝 License</b></h2>
-<p><b>MIT License</b></p>
-
-<p><li>
-This project is licensed under the MIT License.  
-You are free to use, modify, and distribute the software with proper attribution.
-</li>
-</p>
 <h2><b>⭐ Author</b></h2>
 <pre><b>Anukalp Pandey<br>
-GitHub: <a href="hhttps://github.com/anukalp2804" target="_blank"><b>Profile</b></a>
+GitHub: <a href="https://github.com/anukalp2804" target="_blank"><b>Profile</b></a>
 LinkedIn: <a href="https://www.linkedin.com/in/anukalp-pandey-55941b281/" target="_blank"><b>Profile</b></a></b></pre>
 </p>
