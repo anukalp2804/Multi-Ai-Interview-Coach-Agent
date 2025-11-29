@@ -263,6 +263,7 @@ The Memory Agent compiles a complete performance summary, including average scor
 
 <h2><b>⭐ Author</b></h2>
 <pre><b>Anukalp Pandey<br>
-GitHub: <a href="https://github.com/anukalp2804" target="_blank"><b>Profile</b></a>
-LinkedIn: <a href="https://www.linkedin.com/in/anukalp-pandey-55941b281/" target="_blank"><b>Profile</b></a></b></pre>
+GitHub: <a href="https://github.com/anukalp2804" target="_blank"><b>@anukalp2804</b></a>
+Kaggle: <a href="https://www.kaggle.com/itskailpy" target="_blank"><b>My Profile</b></a>
+LinkedIn: <a href="https://www.linkedin.com/in/anukalp-pandey-55941b281/" target="_blank"><b>My Profile</b></a></b></pre>
 </p>
